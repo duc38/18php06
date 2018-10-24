@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+ul{
+	list-style-type: none;
+	background-color: white;
+	text-align: center;
+
+}
+ul li{
+	color: white;
+	display: inline-table;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+	border: 2px solid blue;
+	margin: 2px 2px 2px 2px;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+ul li a:hover{
+	background-color: grey;
+	color: #333;
+}
+ul li > .sub3{
+	display: none;
+	position: absolute;
+}
+ul li > .sub4{
+	display: none;
+	position: absolute;
+}
+ul li:hover .sub3{
+	display: block;
+}
+ul li:hover .sub4{
+	display: block;
+}
