@@ -1,0 +1,165 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit- box-sizing:border-box;
+}
+
+body{
+	margin: 0 auto;
+	padding:  0 auto;
+	width: 1200px;
+	color: #333;
+}
+#header{
+
+}
+nav{
+	height: 200px;
+	background-color: red;
+
+}
+#n1{
+	float: left;
+
+}
+#n2{
+
+}
+#n3{
+	float: right;
+	padding-right: 50px;
+}
+.menu{
+	text-align: center;
+}
+/*menu ngang*/
+#menudoc{
+	float: left;
+	width: 300px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    padding-top: 13px;
+    list-style: none;
+    background-color: orange;
+}
+li{
+    width: 200px;
+    text-align: center; 
+}
+.menu > ul{
+    height: 40px;
+}
+.menu > ul > li{
+    display: inline-block;
+    border-right: 1px solid #dddddd;
+    position: relative;
+}
+.menu > ul > li > ul {
+    display: none;
+    position: absolute;
+    top: 15px;
+}
+.menu > ul > li > ul li{
+    padding: 5px 0;
+    border-bottom: 1px solid #dddddd;
+}
+    ul li:last-child{
+    border: none;
+}
+.menu ul li:hover ul{
+        display: block;
+}
+/*hết menu ngang*/
+
+/*hết menu dọc*/
+#main{
+	height: 800px;
+	width: 1200px;
+}
+#left{
+	width:100%;
+	
+}
+#right{
+	width: 100%;
+	clear: both;
+
+}
+#find{
+	float: left;
+	width: 30%;
+}
+
+.tips{
+	background-color: blue;
+	color: white;
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: bold;
+}
+#tip{
+	padding-left: 15px;
+	font-size: 18px;
+	text-align: left;
+	text-decoration: none;
+}
+
+#tip a{
+	text-decoration: none;
+}
+#tip a:hover{
+	color: red;
+}
+.hot{
+	height: 300px;
+	text-align: center;
+	align-items: center;
+	/*float: left;*/
+	width: 68%;
+	float: right;
+	/*padding-left: 5em;*/
+}
+#sidebar{
+	/*clear: both;*/
+	width: 25%;
+	float: left;
+}
+.combo{
+	float: right;
+	width: 70%;
+	height: 300px;
+	text-align: center;
+	align-items: center;
+	
+}
+.combo1{
+	padding: 25px;
+	background-image: url(ali.png) repeat;
+}
+.item{
+	width: 200px;
+	height: 200px;
+	border:1px solid black;
+	
+}
+.item2{
+	width: 200px;
+	height: 200px;
+	border:1px solid black;
+	
+}
+/*.s
+/*.sidebar{
+	display: inline;
+	margin-left: 20px;
+}*/
+#footer{
+	height: 200px;
+}
+.title{
+	text-align: center;
+	color: grey;
+	font-weight: bold;
+}
