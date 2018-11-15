@@ -1,0 +1,284 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit- box-sizing:border-box;
+
+}
+
+body{
+
+	margin: 0 auto ;
+	padding: 0 auto;
+	width: 100%;
+}
+#container{
+	
+	/*padding: 0 auto;*/
+	margin: 0 auto ;
+	padding: 0 auto;
+	width: 1280px;
+}
+#header{
+	height: 200px;
+	/*align-content: center;*/
+}
+#topheader{
+	height: 200px;
+	background-color: #000000;
+}
+.title{
+	float: left;
+	color: white;
+	width: 50%;
+	line-height: 150px;
+}
+.logo{
+	float: left;
+	width: 30%;
+}
+.register{
+	float: right;
+	width:20%;
+	line-height: 200px;
+
+}
+.nav{
+	height: 50px;
+	background-color: white;
+	align-content: center;
+}
+ul li{
+	float: left;
+	margin-right: 15px;
+	list-style-type: none;
+}
+.nav li{
+    position: relative;
+}
+.nav li a{
+        padding: 10px;
+        line-height: 20px;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: bold;
+
+}
+a:hover {
+    color: hotpink;
+}
+
+.nav .sub-menu{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 200px;
+        background-color: #eee;
+        padding: 5px 20px;
+    }
+     
+.nav li:hover>.sub-menu{
+        display: block;
+}
+ 
+.nav>li>.sub-menu{
+        top: 40px;
+        left: 0;
+}
+.banner{
+	width: 100%;
+	height: 800px;
+}
+.slogan{
+	font-size: 65px;
+	color: white;
+	padding-left: 250px;
+	text-align: left;
+	padding-top: 250px;
+}
+#box{
+	width: 60%;
+	text-align: center;
+	margin: 0;
+}
+.box1{
+	float: left;
+	width: 15%;
+	background-color: white;
+}
+.box2{
+	float: right;
+	width: 85%;
+	background-color: white;
+	height: 100%;
+}
+.box3{
+	clear: both;
+	height: 50px;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+/*.form1{
+	
+	width: 40%;
+	padding-left: 350px;
+}*/
+.info{
+	height:150px;
+	background-color: #525252;
+	color: white;
+	text-align: center;
+}
+.info2{
+	color: red;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.address{
+	float: left;
+	width: 30%;
+}
+.contact{
+	float: left;
+	width: 40%;
+}
+.open{
+	float: right;
+	width: 30%;
+}
+h3{
+	font-weight: bold;
+	font-size: 45px;
+	text-align: center;
+}
+
+.dis{
+	padding-right: 100px;
+	padding-left: 100px;
+	text-align: center;
+}
+.cost{
+	font-weight: bold;
+	
+}
+#videos{
+	width: 100%;
+	height:450px;
+	background-color: white;
+	text-align: center;
+}
+.leftvideo{
+	width: 33%;
+	float: left;
+	padding-right: 1%;
+}
+.centervideo{
+	width: 33%;
+	float: right;
+	padding-right: 1%;
+
+}
+.rightvideo{
+	width: 33%;
+	float: right;
+	padding-left: -1%;
+}
+
+#service{
+	width: 100%;
+	text-align: center;
+	
+	
+}
+.service1{
+	float: left;
+	width: 33%;
+	margin-left: 1em;
+}
+.service2{
+	float: left;
+	width: 33%;
+	
+}
+.service3{
+	float: right;
+	width: 30%;
+	margin-right: 1em;
+}
+.viewall{
+	clear: both;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #E0B570;
+
+}
+.namesr{
+	text-align: center;
+}
+.viewall{
+	clear: both;
+	width: 50px;
+	border: 1px solid black;
+	background-color: #D5A353;
+}
+#lastcontent{
+	width: 100%;
+	height: 450px;
+	background-color: #F9F6F2;
+	clear: both;
+}
+.title3{
+	font-weight: bolder;
+	font-size: 25px;
+}
+.promise{
+	width: 40%;
+	float: left;
+	/*background-color: white;*/
+}
+.store{
+	width: 40%;
+	float: right;
+
+	/*background-color: white;*/
+}
+#store1{
+	width: 90%;
+}
+.detail{
+	width: 80%;
+	clear: both;
+	font-weight: bold;
+}
+hr{
+	width: 100%;
+}
+.left{
+	border: 1px solid #F9F6F2;
+	background-color: #F9F6F2;
+	padding: 2px 2px 2px 2px;
+}
+.right{
+	
+}
+#footer{
+	height: 300px;
+	width: 100%;
+	background-color: black;
+}
+.leftfooter{
+	float: left;
+	width: 30%;
+	padding-left: 3em;
+}
+.centerfooter{
+	float: left;
+	width: 30%;
+}
+.rightfooter{
+	float: right;
+	width: 30%;
+}
